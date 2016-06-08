@@ -18,7 +18,6 @@ View Demo: [v 1.0](http://christopheryee.ca/slide-social-buttons/) | [v 2.0](htt
 
 ##Requirements
 
-- [Modernizr](http://www.modernizr.com/)
 - [Font Awesome 4.x](http://fortawesome.github.io/Font-Awesome/)
 
 ##Usage
@@ -52,7 +51,18 @@ You can find the markup for additional social buttons in the demo file (index.ht
 
 ##Version History
 
-2.0 (2015-01-04)
+###2.0.2 (2016-06-08)
+
+- Added fix for touch devices.
+- Removed unused styles.
+
+###2.0.1 (2016-06-04)
+
+	! Hid dividing line when cover has slid away
+	. Made .slide-social background very transparent black instead of light gray
+	. Replaced remaining tab characters with four spaces
+
+###2.0 (2015-01-04)
 
 	! Blue Husky Studios refined it to work better as a plugin to an existing site.
 		- REMOVED IE8 COMPATIBILITY - now designed for evergreen browsers.
@@ -73,19 +83,12 @@ You can find the markup for additional social buttons in the demo file (index.ht
 		! Made .slide-social relative so internal buttons don't align with another positioned ancestor
 		! Gave .ss-slide a 2-second return delay so button is still uncovered when clicking in IE.
 
-1.0
+###1.0
 
 - Inital release
-
-##Known Issues
-
-- IE 10 hover issues with FB Like, Twitter & Google+ buttons. Not usuable.
-- iOS breaks the hover animation, the buttons will degrade gracefully for touch devices.
 
 ##Thanks to
 
 - [Supersteil](http://supersteil.com/)
 - [HTML5 Boilerplate](http://html5boilerplate.com/)
 - [Christopher Yee](http://christopheryee.ca/)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/christophery/slide-social-buttons/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
